@@ -14,60 +14,60 @@ document.addEventListener("DOMContentLoaded", () => {
             {
                 title: '【北海道旅行】試合を見なくても大満足！エスコンフィールドの「スタジアムツアー」でベンチに潜入してきた⚾️🔥',
                 url: 'https://note.com/ripe_spirea6186/n/n01be01856766',
-                imgUrl: 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png'
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/260297803/rectangle_large_type_2_620e8fa273e8f6cc66cac0bc8920c0df.png'
             },
             {
                 title: '【北海道旅行】おばあちゃんと行く小樽満喫旅！絶景の夜景と水面に映る「夜の運河」が最高すぎた⛄️✨',
                 url: 'https://note.com/ripe_spirea6186/n/n819cc277e6a7',
-                imgUrl: 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png'
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/260017896/rectangle_large_type_2_ea642fabfa6e97cde2c21ce4aa1f22b1.png'
             },
             {
                 title: '【Antigravity】おばあちゃんと2人で旅行に行くから、旅のしおりをノーコードで作ってみた！',
                 url: 'https://note.com/ripe_spirea6186/n/nc9ce121ba61c',
-                imgUrl: 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png'
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/259182406/rectangle_large_type_2_5ccaa696abcbb08fd69f730e8c250b78.png'
             }
         ],
         '長野': [
             {
                 title: 'スノボで立てない!? 悲劇のスキー旅行から、Geminiで「ゆる体幹トレアプリ」を作った話⛄️📱',
                 url: 'https://note.com/ripe_spirea6186/n/n57eeaa0e743f',
-                imgUrl: 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png'
+                imgUrl: '' // Uses fallback
             }
         ],
         '富山': [
-            { title: 'Geminiの計画通りの旅行してきた！！福井旅行！！', url: 'https://note.com/ripe_spirea6186/n/n9f2e53a2800b', imgUrl: 'https://assets.st-note.com/img/1710928740-r6Q10Z8bX4.jpg' },
-            { title: '急な変更でも、旅行の計画を一瞬で立て直すGemini活用術！！🛫', url: 'https://note.com/ripe_spirea6186/n/nfcb92a360f0a', imgUrl: 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png' },
-            { title: '行きたいところが多すぎる旅行の計画をGeminiが代わりに立ててくれる。', url: 'https://note.com/ripe_spirea6186/n/n2a70c657c63d', imgUrl: 'https://assets.st-note.com/img/1710419992-H8v2G1yP7J.jpg' }
+            { title: 'Geminiの計画通りの旅行してきた！！福井旅行！！', url: 'https://note.com/ripe_spirea6186/n/n9f2e53a2800b', imgUrl: '' },
+            { title: '急な変更でも、旅行の計画を一瞬で立て直すGemini活用術！！🛫', url: 'https://note.com/ripe_spirea6186/n/nfcb92a360f0a', imgUrl: '' },
+            { title: '行きたいところが多すぎる旅行の計画をGeminiが代わりに立ててくれる。', url: 'https://note.com/ripe_spirea6186/n/n2a70c657c63d', imgUrl: '' }
         ],
         '石川': [
-            { title: 'Geminiの計画通りの旅行してきた！！福井旅行！！', url: 'https://note.com/ripe_spirea6186/n/n9f2e53a2800b', imgUrl: 'https://assets.st-note.com/img/1710928740-r6Q10Z8bX4.jpg' },
-            { title: '急な変更でも、旅行の計画を一瞬で立て直すGemini活用術！！🛫', url: 'https://note.com/ripe_spirea6186/n/nfcb92a360f0a', imgUrl: 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png' },
-            { title: '行きたいところが多すぎる旅行の計画をGeminiが代わりに立ててくれる。', url: 'https://note.com/ripe_spirea6186/n/n2a70c657c63d', imgUrl: 'https://assets.st-note.com/img/1710419992-H8v2G1yP7J.jpg' }
+            { title: 'Geminiの計画通りの旅行してきた！！福井旅行！！', url: 'https://note.com/ripe_spirea6186/n/n9f2e53a2800b', imgUrl: '' },
+            { title: '急な変更でも、旅行の計画を一瞬で立て直すGemini活用術！！🛫', url: 'https://note.com/ripe_spirea6186/n/nfcb92a360f0a', imgUrl: '' },
+            { title: '行きたいところが多すぎる旅行の計画をGeminiが代わりに立ててくれる。', url: 'https://note.com/ripe_spirea6186/n/n2a70c657c63d', imgUrl: '' }
         ],
         '福井': [
-            { title: 'Geminiの計画通りの旅行してきた！！福井旅行！！', url: 'https://note.com/ripe_spirea6186/n/n9f2e53a2800b', imgUrl: 'https://assets.st-note.com/img/1710928740-r6Q10Z8bX4.jpg' },
-            { title: '急な変更でも、旅行の計画を一瞬で立て直すGemini活用術！！🛫', url: 'https://note.com/ripe_spirea6186/n/nfcb92a360f0a', imgUrl: 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png' },
-            { title: '行きたいところが多すぎる旅行の計画をGeminiが代わりに立ててくれる。', url: 'https://note.com/ripe_spirea6186/n/n2a70c657c63d', imgUrl: 'https://assets.st-note.com/img/1710419992-H8v2G1yP7J.jpg' }
+            { title: 'Geminiの計画通りの旅行してきた！！福井旅行！！', url: 'https://note.com/ripe_spirea6186/n/n9f2e53a2800b', imgUrl: '' },
+            { title: '急な変更でも、旅行の計画を一瞬で立て直すGemini活用術！！🛫', url: 'https://note.com/ripe_spirea6186/n/nfcb92a360f0a', imgUrl: '' },
+            { title: '行きたいところが多すぎる旅行の計画をGeminiが代わりに立ててくれる。', url: 'https://note.com/ripe_spirea6186/n/n2a70c657c63d', imgUrl: '' }
         ],
         '静岡': [
             {
                 title: '星野リゾート「界 アンジン」に界タビ20sで19000円で泊まってきた😃',
                 url: 'https://note.com/ripe_spirea6186/n/n356bb3665137',
-                imgUrl: 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png'
+                imgUrl: ''
             }
         ],
         '長崎': [
             {
                 title: '長崎旅行に行ってきました!!!!',
                 url: 'https://note.com/ripe_spirea6186/n/n728bf185680f',
-                imgUrl: 'https://assets.st-note.com/img/1726058869-d9R3G2yP8T.png'
+                imgUrl: ''
             }
         ],
         '神奈川': [
             {
                 title: '【Gemini賞受賞🏆】食べるものしか決まってない鎌倉旅行の観光プランをGeminiが考えてくれた！',
                 url: 'https://note.com/ripe_spirea6186/n/n0808cb4fd16c',
-                imgUrl: 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png'
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/218817394/rectangle_large_type_2_5f4ca6d6369a34ae7428eb9b64c55cc7.png'
             }
         ]
     };
@@ -178,9 +178,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 articleCard.target = '_blank';
                 articleCard.className = 'article-card';
                 
-                // If we don't have a real thumb, we can fetch note's generic OG image or the specific ones later.
-                // For now, using a placeholder image logic that tries to load the specified thumbnail.
-                const fallbackImg = 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png'; // Fallback
+                // Using local avatar or generic profile as fallback if no thumbnail
+                const fallbackImg = 'assets/buran-avatar.png';
                 
                 articleCard.innerHTML = `
                     <div class="article-thumb" style="background-image: url('${article.imgUrl || fallbackImg}');"></div>
