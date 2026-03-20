@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     
-    // 14 Unvisited Prefectures
+    // 13 Unvisited Prefectures
     const unvisited = [
-        '北海道', '青森', '秋田', '岩手', '山形', 
+        '青森', '秋田', '岩手', '山形', 
         '兵庫', '和歌山', '鳥取', '島根', '山口', 
         '佐賀', '大分', '宮崎', '沖縄'
     ];
@@ -10,6 +10,23 @@ document.addEventListener("DOMContentLoaded", () => {
     // Articles Data
     // Articles Data with Thumbnail URLs
     const articlesMap = {
+        '北海道': [
+            {
+                title: '【北海道旅行】試合を見なくても大満足！エスコンフィールドの「スタジアムツアー」でベンチに潜入してきた⚾️🔥',
+                url: 'https://note.com/ripe_spirea6186/n/n01be01856766',
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png'
+            },
+            {
+                title: '【北海道旅行】おばあちゃんと行く小樽満喫旅！絶景の夜景と水面に映る「夜の運河」が最高すぎた⛄️✨',
+                url: 'https://note.com/ripe_spirea6186/n/n819cc277e6a7',
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png'
+            },
+            {
+                title: '【Antigravity】おばあちゃんと2人で旅行に行くから、旅のしおりをノーコードで作ってみた！',
+                url: 'https://note.com/ripe_spirea6186/n/nc9ce121ba61c',
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/133614275/picture_pc_1ab7ecfe914b4fbfa9ba6be59a68e64e.png'
+            }
+        ],
         '長野': [
             {
                 title: 'スノボで立てない!? 悲劇のスキー旅行から、Geminiで「ゆる体幹トレアプリ」を作った話⛄️📱',
