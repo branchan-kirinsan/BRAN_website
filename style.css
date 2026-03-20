@@ -192,17 +192,17 @@ h1, h2, h3, h4 {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 1rem;
-    border-radius: 16px;
+    background-color: #fff;
+    padding: 1.2rem;
+    border-radius: 12px;
+    border: 1px solid #E8EAED;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
     transition: var(--transition);
 }
 
-.award-item.highlight {
-    background-color: #fff;
-    border: 2px solid #ffd54f;
-    box-shadow: 0 5px 15px rgba(255, 213, 79, 0.3);
-    transform: scale(1.02);
+.award-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
 
 .award-icon {
@@ -581,8 +581,6 @@ h1, h2, h3, h4 {
 }
 
 .article-thumb {
-    width: 80px;
-    height: 80px;
     border-radius: 6px;
     background-size: cover;
     background-position: center;
@@ -591,10 +589,35 @@ h1, h2, h3, h4 {
     border: 1px solid #E8EAED;
 }
 
+.article-thumb-wide {
+    width: 100px;
+    height: 52px; /* ~1.91:1 */
+}
+
+@media (min-width: 480px) {
+    .article-thumb-wide {
+        width: 130px;
+        height: 68px;
+    }
+}
+
+.article-thumb-square {
+    width: 60px;
+    height: 60px;
+}
+
+@media (min-width: 480px) {
+    .article-thumb-square {
+        width: 80px;
+        height: 80px;
+    }
+}
+
 .article-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 0; /* Prevents flex child from overflowing when text truncates */
 }
 
 .article-info h4 {

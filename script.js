@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const fallbackImg = 'assets/buran-avatar.png';
                 
                 articleCard.innerHTML = `
-                    <div class="article-thumb" style="background-image: url('${article.imgUrl || fallbackImg}');"></div>
+                    <div class="article-thumb article-thumb-wide" style="background-image: url('${article.imgUrl || fallbackImg}');"></div>
                     <div class="article-info">
                         <h4>${article.title}</h4>
                         <span class="read-more">記事を読む <i class="fa-solid fa-arrow-right"></i></span>
