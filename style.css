@@ -190,7 +190,7 @@ h1, h2, h3, h4 {
 
 .award-item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 1.5rem;
     background-color: #fff;
     padding: 1.2rem;
@@ -198,11 +198,19 @@ h1, h2, h3, h4 {
     border: 1px solid #E8EAED;
     box-shadow: 0 2px 6px rgba(0,0,0,0.04);
     transition: var(--transition);
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .award-item:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.award-text {
+    flex: 1;
+    min-width: 0;
 }
 
 .award-icon {
@@ -332,11 +340,12 @@ h1, h2, h3, h4 {
    Goals (今年の目標)
 ================================== */
 .goal-list {
-    list-style: none;
+    list-style: none !important;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    padding: 0;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .goal-list li {
@@ -348,6 +357,7 @@ h1, h2, h3, h4 {
     border: 2px solid transparent;
     transition: var(--transition);
     background-color: #FFFFFF;
+    margin-left: 0 !important;
 }
 
 /* 未達成状態 */
@@ -664,6 +674,10 @@ h1, h2, h3, h4 {
     border-radius: 8px;
     padding: 0.5rem;
     transition: var(--transition);
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .article-card:hover {
@@ -757,4 +771,27 @@ h1, h2, h3, h4 {
 @keyframes slideUp {
     from { transform: translateY(20px); opacity: 0;}
     to { transform: translateY(0); opacity: 1;}
+}
+
+/* ==================================
+   Mobile Extra Fixes
+================================== */
+@media (max-width: 600px) {
+    .award-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    .article-card {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.8rem;
+    }
+    .article-thumb-wide, .article-thumb-square {
+        width: 100%;
+        height: 120px;
+    }
+    .article-info {
+        width: 100%;
+    }
 }
