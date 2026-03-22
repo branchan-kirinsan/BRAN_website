@@ -31,36 +31,36 @@ document.addEventListener("DOMContentLoaded", () => {
             {
                 title: 'スノボで立てない!? 悲劇のスキー旅行から、Geminiで「ゆる体幹トレアプリ」を作った話⛄️📱',
                 url: 'https://note.com/ripe_spirea6186/n/n57eeaa0e743f',
-                imgUrl: '' // Uses fallback
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/256520673/rectangle_large_type_2_af26660cd6a0b72601028b48d65d28b0.png'
             }
         ],
         '富山': [
-            { title: 'Geminiの計画通りの旅行してきた！！福井旅行！！', url: 'https://note.com/ripe_spirea6186/n/n9f2e53a2800b', imgUrl: '' },
-            { title: '急な変更でも、旅行の計画を一瞬で立て直すGemini活用術！！🛫', url: 'https://note.com/ripe_spirea6186/n/nfcb92a360f0a', imgUrl: '' },
-            { title: '行きたいところが多すぎる旅行の計画をGeminiが代わりに立ててくれる。', url: 'https://note.com/ripe_spirea6186/n/n2a70c657c63d', imgUrl: '' }
+            { title: 'Geminiの計画通りの旅行してきた！！福井旅行！！', url: 'https://note.com/ripe_spirea6186/n/n9f2e53a2800b', imgUrl: 'https://assets.st-note.com/production/uploads/images/231942818/rectangle_large_type_2_f9d4d107812dd6296b641bfae0efd72e.png' },
+            { title: '急な変更でも、旅行の計画を一瞬で立て直すGemini活用術！！🛫', url: 'https://note.com/ripe_spirea6186/n/nfcb92a360f0a', imgUrl: 'https://assets.st-note.com/production/uploads/images/230700178/rectangle_large_type_2_e3b265960f926524f04a64ce9ad00830.png' },
+            { title: '行きたいところが多すぎる旅行の計画をGeminiが代わりに立ててくれる。', url: 'https://note.com/ripe_spirea6186/n/n2a70c657c63d', imgUrl: 'https://assets.st-note.com/production/uploads/images/230136054/rectangle_large_type_2_d2b2ed451bcb5a0a8e66e6084e526390.png' }
         ],
         '石川': [
-            { title: 'Geminiの計画通りの旅行してきた！！福井旅行！！', url: 'https://note.com/ripe_spirea6186/n/n9f2e53a2800b', imgUrl: '' },
-            { title: '急な変更でも、旅行の計画を一瞬で立て直すGemini活用術！！🛫', url: 'https://note.com/ripe_spirea6186/n/nfcb92a360f0a', imgUrl: '' },
-            { title: '行きたいところが多すぎる旅行の計画をGeminiが代わりに立ててくれる。', url: 'https://note.com/ripe_spirea6186/n/n2a70c657c63d', imgUrl: '' }
+            { title: 'Geminiの計画通りの旅行してきた！！福井旅行！！', url: 'https://note.com/ripe_spirea6186/n/n9f2e53a2800b', imgUrl: 'https://assets.st-note.com/production/uploads/images/231942818/rectangle_large_type_2_f9d4d107812dd6296b641bfae0efd72e.png' },
+            { title: '急な変更でも、旅行の計画を一瞬で立て直すGemini活用術！！🛫', url: 'https://note.com/ripe_spirea6186/n/nfcb92a360f0a', imgUrl: 'https://assets.st-note.com/production/uploads/images/230700178/rectangle_large_type_2_e3b265960f926524f04a64ce9ad00830.png' },
+            { title: '行きたいところが多すぎる旅行の計画をGeminiが代わりに立ててくれる。', url: 'https://note.com/ripe_spirea6186/n/n2a70c657c63d', imgUrl: 'https://assets.st-note.com/production/uploads/images/230136054/rectangle_large_type_2_d2b2ed451bcb5a0a8e66e6084e526390.png' }
         ],
         '福井': [
-            { title: 'Geminiの計画通りの旅行してきた！！福井旅行！！', url: 'https://note.com/ripe_spirea6186/n/n9f2e53a2800b', imgUrl: '' },
-            { title: '急な変更でも、旅行の計画を一瞬で立て直すGemini活用術！！🛫', url: 'https://note.com/ripe_spirea6186/n/nfcb92a360f0a', imgUrl: '' },
-            { title: '行きたいところが多すぎる旅行の計画をGeminiが代わりに立ててくれる。', url: 'https://note.com/ripe_spirea6186/n/n2a70c657c63d', imgUrl: '' }
+            { title: 'Geminiの計画通りの旅行してきた！！福井旅行！！', url: 'https://note.com/ripe_spirea6186/n/n9f2e53a2800b', imgUrl: 'https://assets.st-note.com/production/uploads/images/231942818/rectangle_large_type_2_f9d4d107812dd6296b641bfae0efd72e.png' },
+            { title: '急な変更でも、旅行の計画を一瞬で立て直すGemini活用術！！🛫', url: 'https://note.com/ripe_spirea6186/n/nfcb92a360f0a', imgUrl: 'https://assets.st-note.com/production/uploads/images/230700178/rectangle_large_type_2_e3b265960f926524f04a64ce9ad00830.png' },
+            { title: '行きたいところが多すぎる旅行の計画をGeminiが代わりに立ててくれる。', url: 'https://note.com/ripe_spirea6186/n/n2a70c657c63d', imgUrl: 'https://assets.st-note.com/production/uploads/images/230136054/rectangle_large_type_2_d2b2ed451bcb5a0a8e66e6084e526390.png' }
         ],
         '静岡': [
             {
                 title: '星野リゾート「界 アンジン」に界タビ20sで19000円で泊まってきた😃',
                 url: 'https://note.com/ripe_spirea6186/n/n356bb3665137',
-                imgUrl: ''
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/253808025/rectangle_large_type_2_1f250bcc0e316df108bed38b03cfdaef.png'
             }
         ],
         '長崎': [
             {
                 title: '長崎旅行に行ってきました!!!!',
                 url: 'https://note.com/ripe_spirea6186/n/n728bf185680f',
-                imgUrl: ''
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/235008087/rectangle_large_type_2_b623838796a276d17400247ddd65354c.png'
             }
         ],
         '神奈川': [
@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         block.textContent = name.substring(0, 1); // Display first char for space
-        if (name === '北海道' || name === '沖縄' || name === '神奈川' || name === '和歌山') {
+        if (name === '北海道' || name === '沖縄') {
              block.textContent = name; // exceptions
         }
         
