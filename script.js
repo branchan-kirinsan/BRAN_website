@@ -69,6 +69,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 url: 'https://note.com/ripe_spirea6186/n/n0808cb4fd16c',
                 imgUrl: 'https://assets.st-note.com/production/uploads/images/218817394/rectangle_large_type_2_5f4ca6d6369a34ae7428eb9b64c55cc7.png'
             }
+        ],
+        '東京': [
+            {
+                title: '【AIで解決】お花見の「まだ早かった😭」をなかったことに！上野公園の桜をAIで満開にしてみた☁️✨',
+                url: 'https://note.com/ripe_spirea6186/n/nc7287614c9fa',
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/263040131/rectangle_large_type_2_d3899ead6d530306077c8eaef45af6b8.png'
+            }
         ]
     };
 

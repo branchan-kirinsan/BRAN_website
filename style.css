@@ -409,10 +409,35 @@ h1, h2, h3, h4 {
     font-weight: bold;
     animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
 }
-
 @keyframes popIn {
     0% { transform: scale(0.8); opacity: 0; }
     100% { transform: scale(1); opacity: 1; }
+}
+
+/* 挑戦中状態 */
+.goal-challenging {
+    background-color: #fffdf5;
+    color: var(--text-main);
+    border-color: #fce8b2;
+    box-shadow: 0 4px 10px rgba(251, 188, 5, 0.1);
+}
+.goal-challenging::before {
+    content: "\f135"; /* fa-rocket */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 12px;
+    color: var(--google-yellow);
+    font-size: 1.2rem;
+}
+.goal-challenging::after {
+    content: "挑戦中 🔥";
+    margin-left: auto;
+    font-size: 0.85rem;
+    color: #000;
+    background-color: var(--google-yellow);
+    padding: 0.2rem 0.8rem;
+    border-radius: 20px;
+    font-weight: bold;
 }
 
 @media (max-width: 600px) {
@@ -420,11 +445,11 @@ h1, h2, h3, h4 {
         padding: 0.6rem 1rem;
         font-size: 0.95rem;
     }
-    .goal-unachieved::after, .goal-achieved::after {
+    .goal-unachieved::after, .goal-achieved::after, .goal-challenging::after {
         font-size: 0.75rem;
         padding: 0.2rem 0.6rem;
     }
-    .goal-unachieved::before, .goal-achieved::before {
+    .goal-unachieved::before, .goal-achieved::before, .goal-challenging::before {
         margin-right: 8px;
         font-size: 1.1rem;
     }
