@@ -381,6 +381,8 @@ h1, h2, h3, h4 {
     background-color: #E8EAED;
     padding: 0.2rem 0.8rem;
     border-radius: 20px;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 /* 達成状態 */
@@ -408,6 +410,8 @@ h1, h2, h3, h4 {
     border-radius: 20px;
     font-weight: bold;
     animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 @keyframes popIn {
     0% { transform: scale(0.8); opacity: 0; }
@@ -438,6 +442,8 @@ h1, h2, h3, h4 {
     padding: 0.2rem 0.8rem;
     border-radius: 20px;
     font-weight: bold;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 @media (max-width: 600px) {
