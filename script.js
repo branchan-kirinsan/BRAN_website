@@ -70,7 +70,26 @@ document.addEventListener("DOMContentLoaded", () => {
                 imgUrl: 'https://assets.st-note.com/production/uploads/images/218817394/rectangle_large_type_2_5f4ca6d6369a34ae7428eb9b64c55cc7.png'
             }
         ],
+        '群馬': [
+            {
+                title: 'Geminiと行く「めちゃくちゃ歩く」伊香保温泉＆佛光山ドタバタ旅行記🏃‍♀️♨️',
+                url: 'https://note.com/ripe_spirea6186/n/nada5b1dc9a5d',
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/280612772/rectangle_large_type_2_2ea56cca167d427069d0ed16a339d716.png'
+            }
+        ],
+        '千葉': [
+            {
+                title: 'イベントを終えて【5/31まちラボCoderカフェ＠思井福祉会館】',
+                url: 'https://note.com/med_application/n/n7684dcf529a3',
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/281207842/rectangle_large_type_2_31420cde5ca476a45178a39562765307.jpg'
+            }
+        ],
         '東京': [
+            {
+                title: '【ゆる記事】東大の五月祭に行ってきた！',
+                url: 'https://note.com/ripe_spirea6186/n/nc1915a3bf60c',
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/276904868/rectangle_large_type_2_762dab54c3a86657cf9f3862f420cbe5.png'
+            },
             {
                 title: '【AIで解決】お花見の「まだ早かった😭」をなかったことに！上野公園の桜をAIで満開にしてみた☁️✨',
                 url: 'https://note.com/ripe_spirea6186/n/nc7287614c9fa',
