@@ -84,6 +84,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 imgUrl: 'https://assets.st-note.com/production/uploads/images/281207842/rectangle_large_type_2_31420cde5ca476a45178a39562765307.jpg'
             }
         ],
+        '大阪': [
+            {
+                title: '【Geminiに相談】「真珠の耳飾りの少女」を絶対見たい女子大生vs人気すぎるチケットの予約枠どこにするか問題',
+                url: 'https://note.com/ripe_spirea6186/n/n02c5261d16f5?sub_rt=share_sb',
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/282135863/rectangle_large_type_2_059a6575697f62cd2cca8cebd3d99235.png'
+            }
+        ],
         '東京': [
             {
                 title: '【ゆる記事】東大の五月祭に行ってきた！',
