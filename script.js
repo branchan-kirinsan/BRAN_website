@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     
-    // 13 Unvisited Prefectures
+    // 12 Unvisited Prefectures
     const unvisited = [
         '青森', '秋田', '岩手', '山形', 
-        '兵庫', '和歌山', '鳥取', '島根', '山口', 
+        '兵庫', '鳥取', '島根', '山口', 
         '佐賀', '大分', '宮崎', '沖縄'
     ];
 
@@ -89,6 +89,20 @@ document.addEventListener("DOMContentLoaded", () => {
                 title: '【Geminiに相談】「真珠の耳飾りの少女」を絶対見たい女子大生vs人気すぎるチケットの予約枠どこにするか問題',
                 url: 'https://note.com/ripe_spirea6186/n/n02c5261d16f5?sub_rt=share_sb',
                 imgUrl: 'https://assets.st-note.com/production/uploads/images/282135863/rectangle_large_type_2_059a6575697f62cd2cca8cebd3d99235.png'
+            }
+        ],
+        '和歌山': [
+            {
+                title: '【Geminiに相談】「真珠の耳飾りの少女」を絶対見たい女子大生vs2泊3日しかないけどついでに和歌山行きたい問題🍊🗾',
+                url: 'https://note.com/ripe_spirea6186/n/n1a5b6c8cd643',
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/282136482/rectangle_large_type_2_378b1fccf1bee095f0ef366305960195.png'
+            }
+        ],
+        '新潟': [
+            {
+                title: 'Geminiと花火大会も楽しもう！！【長岡花火】',
+                url: 'https://note.com/ripe_spirea6186/n/n5b37672a6382',
+                imgUrl: 'https://assets.st-note.com/production/uploads/images/285883664/rectangle_large_type_2_2837a37cd1c415c397e06ff215fd2267.png'
             }
         ],
         '東京': [
